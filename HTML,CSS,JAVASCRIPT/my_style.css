@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive,inherit,sans-serif,Serif,fantasy;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.3)),url('bck.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+}
+.menu{
+    background: black;
+    text-align: center;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu .fa{
+    margin-right: 7px;
+    color: white;
+}
+.menu ul li{
+    margin:10px;
+    padding: 13px;
+    width: 120px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu_bar ul li:hover{
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+.logo h1{
+    position: absolute;
+    color: white;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+.logo h1:hover{
+    color: mediumvioletred;
+}
+.menu ul li:hover {
+    display: block;
+    margin: 10px;
+    background-color:#00b33c;
+    border-radius: 5px;
+}
+.main{
+    text-align: center;
+    margin-top: 2%;
+}
+.main h1 h3{
+    font-size: 20px;
+    color: rebeccapurple;
+}
+.main img{
+    width: 300px;
+    margin: 2%;
+    border-radius: 90%;
+    border: solid;
+    color: chartreuse;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin-left: 45%;
+    margin-top: 3%;
+    border-radius: 3px;
+}
+.button:hover{
+    background-color: green;
+}
+.button a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.footer{
+    text-align: center;
+    margin-top: 5%;
+    background:   url('bck3.jpg');
+    background-size: cover;
+    border-top:1px solid #fff;
+    border-top: 50px;
+    padding: 30px;
+}
+.footer a i
+{
+    width: 70px;
+    font-size: 40px;
+    color: #fff;
+}
+.footer a i:hover{
+    color:  lightblue;
+}
+
+
